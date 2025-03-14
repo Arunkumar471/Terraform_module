@@ -11,14 +11,14 @@ module "SA" {
   storage_accounts = {
     "sa01" = {
       name                     = "string01"
-      account_tier             = "standard"
+      account_tier             = "Standard"
       account_replication_type = "LRS"
       location                 = var.location
 
     },
     "sa02" = {
       name                     = "string2"
-      account_tier             = "standard"
+      account_tier             = "Standard"
       account_replication_type = "LRS"
       location                 = var.location
     }
