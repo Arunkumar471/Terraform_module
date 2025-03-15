@@ -12,14 +12,14 @@ module "SA" {
     "sa01" = {
       name                     = "string01"
       account_tier             = "Standard"
-      account_replication_type = "LRS"
+      account_replication_type = var.account_replication_type
       location                 = var.location
 
     },
     "sa02" = {
       name                     = "string2"
       account_tier             = "Standard"
-      account_replication_type = "LRS"
+      account_replication_type = var.account_replication_type
       location                 = var.location
     }
   }
